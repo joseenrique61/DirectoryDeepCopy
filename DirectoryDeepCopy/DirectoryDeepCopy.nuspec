@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>DirectoryDeepCopy</id>
+    <version>$version$</version>
+    <title>DirectoryDeepCopy</title>
+    <authors>José Cerezo</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <description>Functionality for making a deep copy of a directory.</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>.NET Directory Copy</tags>
+  </metadata>
+</package>
