@@ -19,13 +19,13 @@ namespace DirectoryDeepCopy
 
                 string newFolderPath = Path.Combine(destinationDirectory, folderName);
 
-                if (!omittedFolders.Contains(folderName))
+                if (omittedFolders.Contains(folderName))
                 {
-                    CreateNewFolder(newFolderPath, overwrite);
+                    return;
                 }
 
+                CreateNewFolder(newFolderPath, overwrite);
                 CopyFolder(folderPath, newFolderPath, omittedFolders, overwrite);
-
                 CopyFiles(folderPath, newFolderPath, overwrite);
             }
         }
