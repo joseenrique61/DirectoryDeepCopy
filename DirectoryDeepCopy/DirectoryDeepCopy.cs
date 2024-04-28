@@ -21,7 +21,7 @@ namespace DirectoryDeepCopy
 
                 if (omittedFolders.Contains(folderName))
                 {
-                    return;
+                    continue;
                 }
 
                 CreateNewFolder(newFolderPath, overwrite);
